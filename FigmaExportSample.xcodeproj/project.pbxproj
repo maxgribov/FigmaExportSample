@@ -12,6 +12,14 @@
 		7760266D2791880400E474C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7760266C2791880400E474C2 /* Assets.xcassets */; };
 		776026702791880400E474C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7760266F2791880400E474C2 /* Preview Assets.xcassets */; };
 		7760268027918E9200E474C2 /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7760267F27918E9200E474C2 /* Font+Extensions.swift */; };
+		776026822792BA4600E474C2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776026812792BA4600E474C2 /* CardView.swift */; };
+		776026862792BA9C00E474C2 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776026852792BA9C00E474C2 /* CardViewModel.swift */; };
+		7760268A2792C4EF00E474C2 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 776026882792C4EF00E474C2 /* SF-Pro-Display-Semibold.otf */; };
+		7760268B2792C4EF00E474C2 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 776026892792C4EF00E474C2 /* SF-Pro-Display-Regular.otf */; };
+		7760268E2792C64200E474C2 /* PromoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7760268D2792C64200E474C2 /* PromoView.swift */; };
+		776026902792C65800E474C2 /* PromoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7760268F2792C65800E474C2 /* PromoViewModel.swift */; };
+		776026922792C9AD00E474C2 /* FeatureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776026912792C9AD00E474C2 /* FeatureViewModel.swift */; };
+		776026962792CAD700E474C2 /* FeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776026952792CAD700E474C2 /* FeatureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +29,15 @@
 		7760266C2791880400E474C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7760266F2791880400E474C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7760267F27918E9200E474C2 /* Font+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extensions.swift"; sourceTree = "<group>"; };
+		776026812792BA4600E474C2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		776026852792BA9C00E474C2 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		776026882792C4EF00E474C2 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		776026892792C4EF00E474C2 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		7760268C2792C51800E474C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7760268D2792C64200E474C2 /* PromoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoView.swift; sourceTree = "<group>"; };
+		7760268F2792C65800E474C2 /* PromoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoViewModel.swift; sourceTree = "<group>"; };
+		776026912792C9AD00E474C2 /* FeatureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureViewModel.swift; sourceTree = "<group>"; };
+		776026952792CAD700E474C2 /* FeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +70,12 @@
 		776026672791880200E474C2 /* FigmaExportSample */ = {
 			isa = PBXGroup;
 			children = (
+				7760268C2792C51800E474C2 /* Info.plist */,
 				776026682791880200E474C2 /* FigmaExportSampleApp.swift */,
-				7760266A2791880200E474C2 /* ContentView.swift */,
+				776026842792BA8400E474C2 /* ViewModel */,
+				776026832792BA7800E474C2 /* View */,
 				7760267627918CBC00E474C2 /* Extensions */,
+				776026872792C4D100E474C2 /* Fonts */,
 				7760266C2791880400E474C2 /* Assets.xcassets */,
 				7760266E2791880400E474C2 /* Preview Content */,
 			);
@@ -76,6 +96,36 @@
 				7760267F27918E9200E474C2 /* Font+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		776026832792BA7800E474C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7760266A2791880200E474C2 /* ContentView.swift */,
+				776026812792BA4600E474C2 /* CardView.swift */,
+				7760268D2792C64200E474C2 /* PromoView.swift */,
+				776026952792CAD700E474C2 /* FeatureView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		776026842792BA8400E474C2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				776026852792BA9C00E474C2 /* CardViewModel.swift */,
+				7760268F2792C65800E474C2 /* PromoViewModel.swift */,
+				776026912792C9AD00E474C2 /* FeatureViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		776026872792C4D100E474C2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				776026892792C4EF00E474C2 /* SF-Pro-Display-Regular.otf */,
+				776026882792C4EF00E474C2 /* SF-Pro-Display-Semibold.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +186,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7760268A2792C4EF00E474C2 /* SF-Pro-Display-Semibold.otf in Resources */,
 				776026702791880400E474C2 /* Preview Assets.xcassets in Resources */,
+				7760268B2792C4EF00E474C2 /* SF-Pro-Display-Regular.otf in Resources */,
 				7760266D2791880400E474C2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,9 +200,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7760268E2792C64200E474C2 /* PromoView.swift in Sources */,
+				776026922792C9AD00E474C2 /* FeatureViewModel.swift in Sources */,
 				7760268027918E9200E474C2 /* Font+Extensions.swift in Sources */,
 				7760266B2791880200E474C2 /* ContentView.swift in Sources */,
+				776026902792C65800E474C2 /* PromoViewModel.swift in Sources */,
+				776026822792BA4600E474C2 /* CardView.swift in Sources */,
+				776026962792CAD700E474C2 /* FeatureView.swift in Sources */,
 				776026692791880200E474C2 /* FigmaExportSampleApp.swift in Sources */,
+				776026862792BA9C00E474C2 /* CardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +342,7 @@
 				DEVELOPMENT_TEAM = 29E66XW7ZX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FigmaExportSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,6 +373,7 @@
 				DEVELOPMENT_TEAM = 29E66XW7ZX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FigmaExportSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
