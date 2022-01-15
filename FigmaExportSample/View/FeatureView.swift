@@ -31,7 +31,7 @@ struct FeatureView: View {
 struct FeatureView_Previews: PreviewProvider {
     static var previews: some View {
         
-        FeatureView(viewModel: .init(icon: .star, title: "Шаблоны"))
+        FeatureView(viewModel: .sampleTemplates)
             .previewLayout(.fixed(width: 375, height: 200))
     }
 }

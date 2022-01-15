@@ -7,8 +7,9 @@
 
 import Foundation
 
-struct CardViewModel {
+struct CardViewModel: Identifiable {
     
+    let id = UUID()
     let paymentSystem: PaymentSystem
     let cardNumber: String
     let balance: String
@@ -52,4 +53,11 @@ extension CardViewModel {
             }
         }
     }
+}
+
+extension CardViewModel {
+    
+    static let sampleVisa = CardViewModel(paymentSystem: .visa, cardNumber: "0000 0000 0000 0000", balance: "1,05 млн руб.", back: .blue)
+    
+    static let sampleMastercard = CardViewModel(paymentSystem: .mastercard, cardNumber: "0000 0000 0000 0000", balance: "30 250 руб.", back: .pink)
 }

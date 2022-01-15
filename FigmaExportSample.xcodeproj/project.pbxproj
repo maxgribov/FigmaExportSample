@@ -20,6 +20,7 @@
 		776026902792C65800E474C2 /* PromoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7760268F2792C65800E474C2 /* PromoViewModel.swift */; };
 		776026922792C9AD00E474C2 /* FeatureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776026912792C9AD00E474C2 /* FeatureViewModel.swift */; };
 		776026962792CAD700E474C2 /* FeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776026952792CAD700E474C2 /* FeatureView.swift */; };
+		776026982792CD4A00E474C2 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776026972792CD4A00E474C2 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		7760268F2792C65800E474C2 /* PromoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoViewModel.swift; sourceTree = "<group>"; };
 		776026912792C9AD00E474C2 /* FeatureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureViewModel.swift; sourceTree = "<group>"; };
 		776026952792CAD700E474C2 /* FeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureView.swift; sourceTree = "<group>"; };
+		776026972792CD4A00E474C2 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		776026842792BA8400E474C2 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				776026972792CD4A00E474C2 /* ContentViewModel.swift */,
 				776026852792BA9C00E474C2 /* CardViewModel.swift */,
 				7760268F2792C65800E474C2 /* PromoViewModel.swift */,
 				776026912792C9AD00E474C2 /* FeatureViewModel.swift */,
@@ -204,6 +207,7 @@
 				776026922792C9AD00E474C2 /* FeatureViewModel.swift in Sources */,
 				7760268027918E9200E474C2 /* Font+Extensions.swift in Sources */,
 				7760266B2791880200E474C2 /* ContentView.swift in Sources */,
+				776026982792CD4A00E474C2 /* ContentViewModel.swift in Sources */,
 				776026902792C65800E474C2 /* PromoViewModel.swift in Sources */,
 				776026822792BA4600E474C2 /* CardView.swift in Sources */,
 				776026962792CAD700E474C2 /* FeatureView.swift in Sources */,

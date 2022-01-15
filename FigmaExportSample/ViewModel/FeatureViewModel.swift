@@ -7,8 +7,9 @@
 
 import Foundation
 
-struct FeatureViewModel {
+struct FeatureViewModel: Identifiable {
     
+    let id = UUID()
     let icon: Icon
     let title: String
     
@@ -43,4 +44,11 @@ extension FeatureViewModel {
             }
         }
     }
+}
+
+extension FeatureViewModel {
+    
+    static let sampleTemplates = FeatureViewModel(icon: .star, title: "Шаблоны")
+    static let sampleReturns = FeatureViewModel(icon: .arrows, title: "Возвраты")
+    static let sampleQr = FeatureViewModel(icon: .qr, title: "QR коды")
 }

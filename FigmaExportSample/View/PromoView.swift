@@ -56,7 +56,7 @@ struct PromoView: View {
 
 struct PromoView_Previews: PreviewProvider {
     static var previews: some View {
-        PromoView(viewModel: .init(value: "50 %", title: "Новогоднее предложение", back: .winter))
+        PromoView(viewModel: .sampleWinter)
             .previewLayout(.fixed(width: 375, height: 200))
     }
 }
